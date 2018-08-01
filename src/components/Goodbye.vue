@@ -1,22 +1,19 @@
 <template>
-  <div class="hello">
+  <div class="goodbye">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    
-    <h2>Ecosystem</h2>
-   
+    <img src="../assets/logo.png" alt="Vue.js PWA">
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'hello',
-    data () {
-      return {
-        msg: 'Wassup\''
-      }
+export default {
+  name: 'goodbye',
+  data () {
+    return {
+      msg: 'Eat My Shorts'
     }
   }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
